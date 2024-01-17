@@ -1,0 +1,243 @@
+
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+.paige {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    width: 33.55px;
+    height: 17px;
+}
+.pbody-12 {
+    position: absolute;
+    width: calc(100% - 0.46px);
+    top: 0px;
+    right: 0px;
+    left: 0.46px;
+    height: 18px;
+}
+.symbol {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    width: 12.2px;
+    height: 12px;
+}
+.spantext-orangemargin {
+    position: absolute;
+    top: 3px;
+    left: 30.69px;
+    width: 16px;
+    height: 12px;
+}
+.div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 31.08px;
+    height: 17px;
+}
+.ptext-orange {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: 0px;
+    width: 30.69px;
+    height: 18px;
+    font-family: Poppins;
+}
+.divd-flex1 {
+    position: absolute;
+    top: calc(50% - 8.88px);
+    left: 0.46px;
+    width: 46.69px;
+    height: 18px;
+}
+.divd-flex {
+    position: absolute;
+    height: calc(100% - 17.88px);
+    width: calc(100% - 27.69px);
+    top: 17.88px;
+    right: 27.69px;
+    bottom: 0px;
+    left: 0px;
+    color: #ffa800;
+    font-family: icomoon;
+}
+.pbody-12-parent {
+    position: absolute;
+    width: calc(100% + 0.46px);
+    top: 10.88px;
+    right: 0px;
+    left: -0.46px;
+    height: 35.88px;
+}
+.divresponsive-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 58.23px;
+    height: 61px;
+}
+.divresponsive-wrappermargin {
+    position: absolute;
+    top: 8px;
+    left: 65px;
+    width: 68.23px;
+    height: 61px;
+}
+.divweb-coin-shop-card-image-b-icon {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 27.5px;
+    max-height: 100%;
+    width: 55px;
+    object-fit: cover;
+}
+.divweb-coin-shop-card-image-b-icon1 {
+    position: absolute;
+    top: 5.5px;
+    left: 5.5px;
+    border-radius: 22px;
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+}
+.divposition-relative {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 27.5px;
+    width: 55px;
+    height: 55px;
+}
+.divposition-relativemargin {
+    position: absolute;
+    top: 8.5px;
+    left: 10px;
+    width: 55px;
+    height: 60px;
+}
+.group-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 4px;
+    border: 1px solid #0dd39c;
+    box-sizing: border-box;
+}
+
+.premium {
+    position: absolute;
+    height: 70.83%;
+    width: 46px; /* Adjust the width if necessary */
+    top: 50%;
+    left: 50%;
+    line-height: 28.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    box-sizing: border-box; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+}
+
+
+.rectangle-parent {
+    position: absolute;
+    height: 23.38%;
+    width: 47px;
+    width: [fixed-width]px;
+    top: 14.29%;
+    right: 3.07%;
+    bottom: 62.34%;
+    left: [value]px;
+    text-align: center;
+    font-size: 8px;
+    color: #0dd39c;
+    
+}
+
+/* Dynamic width of .premium based on the width of .rectangle-parent */
+.rectangle-parent > .premium {
+    width: calc(100% - 20px); /* Adjust for padding */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.divp-10 {
+    position: relative;
+    border-radius: 6px;
+    background-color: #272b4a;
+    min-width: 280px;  /* Minimum width */
+    max-width: 390px;  /* Maximum width */
+    height: 77px;
+    text-align: left;
+    font-size: 12px;
+    color: #e2e4f5;
+    font-family: Poppins;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Keep the sizes and positions of inner elements fixed */
+/* You need to set fixed width and absolute positioning for each inner element */
+
+.divresponsive-wrappermargin,
+.divresponsive-wrapper,
+.pbody-12-parent,
+.pbody-12,
+.paige,
+.divd-flex,
+.divd-flex1,
+.ptext-orange,
+.div,
+.divposition-relativemargin,
+.divposition-relative,
+.divweb-coin-shop-card-image-b-icon,
+.rectangle-parent,
+.group-child,
+.premium {
+    /* Set fixed width and height if necessary */
+    /* Use absolute positioning with fixed top, right, bottom, left values */
+    /* Example: */
+    position: absolute;
+    top: [value]px;  /* Adjust these values */
+    right: [value]px;
+    bottom: [value]px;
+    left: [value]px;
+    width: [value]px;
+    height: [value]px;
+}
+
+
+
+
